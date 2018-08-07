@@ -9,6 +9,8 @@ class User(models.Model):
     time = models.CharField(max_length=30)
     site_type = models.CharField(max_length=40)
 
+    objects = models.Manager()
+
 
 
 
